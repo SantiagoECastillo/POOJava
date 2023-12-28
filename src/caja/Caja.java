@@ -19,5 +19,9 @@ public class Caja {
         this.profundida = profundidad;
     }
     
+    public void calcularVolumen(){
+        int volumen = this.ancho * this.alto * this.profundida;
+        System.out.println("El volumen de la caja creada es: " + volumen);
+    }
     
 }
